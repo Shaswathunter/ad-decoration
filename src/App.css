@@ -1,0 +1,15 @@
+@media (max-width: 300px) {
+  body {
+    overflow-x: hidden !important;
+  }
+
+  h1, h2, h3, p {
+    word-wrap: break-word !important;
+    white-space: normal !important;
+  }
+
+  .hero-text {
+    font-size: 1.6rem !important;
+    line-height: 2rem !important;
+  }
+}
