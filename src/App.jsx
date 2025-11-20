@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X, Phone, Mail, MapPin, ArrowRight, Instagram, Facebook, Twitter, Camera, ChevronLeft, ChevronRight, Aperture } from 'lucide-react';
 import v1 from '../src/assets/v2.mp4';
 import v3 from '../src/assets/pp.png';
-import "../src/app.css"
+import "./App.css";
 // --- Assets & Data ---
 const portfolioItems = [
   { id: 2, title: 'Bohemian Sunset', category: 'Outdoor', image: '../src/assets/2.jpg', size: 'small' },
